@@ -32,6 +32,8 @@ REPLY_TEXT = """👋 Привет! Рады, что ты откликнулся!
 
 Напиши нашему менеджеру напрямую 👉 @Turbo_0115
 И мы расскажем подробнее о вакансии, которая подойдёт именно тебе! 🚀
+"""
+
 logging.basicConfig(level=logging.INFO)
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
